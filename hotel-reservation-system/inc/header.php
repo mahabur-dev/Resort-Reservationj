@@ -39,7 +39,7 @@
                     <!-- <img class="showprofile" src="../assets/img/login-img/avatar.jpg"> -->
                     <a href="#"><?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ' '; ?></a>
                     <div class="dropdown-content">
-                        <a href="admin/user-profile.php">Profile</a>
+                        <a href="user_profile.php">Profile</a>
                         <a href="#">Setting and privacy</a>
                         <a class="logout" href="admin/logout.php">Logout</a>
                     </div>
