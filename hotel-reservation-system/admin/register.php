@@ -1,14 +1,6 @@
 <?php
     session_start();
 
-    if(isset($_SESSION["id"]) && isset($_SESSION["role"]) == "admin") {
-        header("location: dashboard.php");
-        exit();
-    }
-    if(isset($_SESSION["id"]) && isset($_SESSION["role"]) == "customer") {
-        header("location: ../index.php");
-        exit();
-    }
     
     require '../inc/config.php';
     $username = $email = $nameError = $emailError = $passwordError = $successful_msg = $Error = "" ;
