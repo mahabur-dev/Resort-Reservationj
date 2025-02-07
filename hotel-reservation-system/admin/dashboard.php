@@ -12,7 +12,7 @@
                         <a href="tbookinglist.php">Total Booking</a>
                     </div>
                     <div class="available avail3">
-                        <a href="booked.php">Booked Rooms</a>
+                        <a href="bookedroom.php">Booked Rooms</a>
                     </div>
                 </div>
             </div>

@@ -38,9 +38,16 @@
   margin-top: 30px;
 }
 .style{
-    width: 80%;
-    margin: auto;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: left;
+   margin-left: 20px;
 }
 .bfrom h2{
     padding-top: 10px;
+}
+.btnp{
+    margin: 20px auto;
 }
