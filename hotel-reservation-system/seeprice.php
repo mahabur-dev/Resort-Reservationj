@@ -3,7 +3,7 @@
     $css_link = 'assets/css/seeprice.css';
     require 'inc/config.php';
     require 'inc/header.php';
-
+    $room_id = 0;
     if (isset($_GET['id'])) {
 
      $room_id = $_GET['id'];
@@ -54,7 +54,10 @@
                <li>Tax Included</li>
                <li>1 night, 2 adults</li>
           </ul>
-               <a href="bookingfrom.php"><button class="btnp">Booked Now</button></a>
+                <a href="bookingfrom.php? id=<?php echo $room_id ;?>">
+                <button class="btnp">Booked Now</button>
+         </a>
+
        </div>
 
     </div>
